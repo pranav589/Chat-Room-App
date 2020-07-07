@@ -1,0 +1,118 @@
+body {
+  /* background:linear-gradient(#1C1F20,#6A6E70);*/
+  background: url("Whatsapp.jpg") no-repeat center center/cover;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  background: #3F3F4A;
+  display: inline-block;
+  padding-top: 2px;
+ /* border-radius: 0 0 20px 20px;*/
+
+}
+
+.msg-body {
+  height: 200px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.footer {
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+
+}
+
+.msg-input {
+  height: 0;
+  width: 85%;
+  padding: 20px;
+  font-size: 17px;
+  outline: none;
+  border: 0;
+  color: white;
+  font-family: sans-serif;
+  background: #3F3F4A;
+  border: 3px solid #3F3F4A;
+  border-radius: 50px;
+  transition: 0.3s;
+  margin-top: 8px;
+
+
+}
+
+.msg-input:focus {
+  border-bottom: 3px solid #444449
+}
+
+.msg-holder {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 5px;
+  display: inline-flex;
+  font-size: 17px;
+
+}
+
+.myText {
+  height: fit-content;
+  width: fit-content;
+  padding: 15px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: black;
+  margin-left: auto;
+  right: 0;
+  margin-right: 20px;
+  border-radius: 9px;
+  max-width: 200px;
+}
+
+.myName {
+  color: black;
+  font-family: sans-serif;
+  height: fit-content;
+  width: fit-content;
+  margin-left: auto;
+  right: 0;
+  margin-right: 25px
+}
+
+.thereName {
+  color: black;
+  font-family: sans-serif;
+  margin-left: 25px;
+  margin-bottom: 5px;
+
+}
+
+.thereText {
+  height: fit-content;
+  width: fit-content;
+  padding: 15px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: grey;
+  margin-right: auto;
+  right: 0;
+  margin-left: 20px;
+  border-radius: 9px;
+  border-left: 7px;
+  max-width: 200px
+}

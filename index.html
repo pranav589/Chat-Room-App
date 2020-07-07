@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chat Room</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    Chat Room
+  </div>
+  <div class="msg-body">
+    <!--<div class="myName">You</div>
+   <div class="msg-holder">
+      <div class="myText">Hi</div>
+    </div>
+    <div class="thereName">Jon</div>
+    <div class="msg-holder">
+      <div class="thereText">Hi</div>
+    </div>-->
+  </div>
+  <div class="footer">
+    <center>
+      <input type="text" placeholder="Enter message" name="" class="msg-input" id="" value="" /></center>
+  </div>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAWr4rzsB9qnF4sqJ5JXwJRWbSn5ze6nbc",
+      authDomain: "chat-app-f7a5e.firebaseapp.com",
+      databaseURL: "https://chat-app-f7a5e.firebaseio.com",
+      projectId: "chat-app-f7a5e",
+      storageBucket: "chat-app-f7a5e.appspot.com",
+      messagingSenderId: "612532818021",
+      appId: "1:612532818021:web:79970492477f823bc1f68c",
+      measurementId: "G-7EXX2VCZ8M"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="main.js"></script>
+</body>
+
+</html>
