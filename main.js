@@ -48,7 +48,7 @@ window.onload = function() {
         } else {
           if (id !== s.val().user)
             document.querySelector(".msg-body").innerHTML +=
-            '<div class="their-name">' +
+            '<div class="thereName">' +
             s.val().user +
             '</div><div class="msg-holder"><div class="thereText" id=' +
             s.key +
